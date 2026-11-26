@@ -1,0 +1,15 @@
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Maven
+**/target/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
