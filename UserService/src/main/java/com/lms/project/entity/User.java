@@ -23,6 +23,8 @@ import javax.persistence.Table;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.lms.project.utils.Gender;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Builder.Default;
@@ -68,7 +70,7 @@ public class User {
 	
 	@Enumerated(EnumType.STRING)
 	@Column(name = "gender",nullable = false, length = 10)
-	private String gender;
+	private Gender gender;
 	
 	@Column(name = "aadhaar_number",unique = true, length = 12)
 	private String aadhaarNumber;
