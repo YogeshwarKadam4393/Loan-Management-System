@@ -80,6 +80,13 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- MySQL Driver -->
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 	</dependencies>
 
 	<!-- Spring Cloud Dependency Management -->
