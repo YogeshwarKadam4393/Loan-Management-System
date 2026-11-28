@@ -45,7 +45,7 @@ public class Address {
 
     @Column(name = "district", length = 100)
     private String district;
-
+    
     @Column(name = "state", nullable = false, length = 100)
     private String state;
 
